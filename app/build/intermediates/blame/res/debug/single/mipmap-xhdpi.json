@@ -4,11 +4,23 @@
         "source": "D:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\AnnuaireParis13-master\\AnnuaireParis13final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "D:\\AnnuaireParis13-master\\AnnuaireParis13final\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
         "source": "D:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\AnnuaireParis13-master\\AnnuaireParis13final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "D:\\AnnuaireParis13-master\\AnnuaireParis13final\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "D:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_villetaneuse.png",
         "source": "D:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_villetaneuse.png"
+    },
+    {
+        "merged": "D:\\AnnuaireParis13-master\\AnnuaireParis13final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_villetaneuse.png",
+        "source": "D:\\AnnuaireParis13-master\\AnnuaireParis13final\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_villetaneuse.png"
     }
 ]
