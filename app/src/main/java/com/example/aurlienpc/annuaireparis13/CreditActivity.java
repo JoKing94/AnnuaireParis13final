@@ -14,6 +14,8 @@ public class CreditActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
+
+    /*ajoute le bouton retour dans le menu*/
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -25,6 +27,7 @@ public class CreditActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /*ajoute le menu*/
     public boolean onCreateOptionsMenu(Menu menu) {
         return true;
     }

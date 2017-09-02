@@ -13,7 +13,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity{
-    public static ArrayList<Enseignant> contacts = new ArrayList<>();
     private RecyclerView rvListeEnseignants;
     public static int test = 0;
 
@@ -27,20 +26,23 @@ public class MainActivity extends AppCompatActivity{
         this.rvListeEnseignants = (RecyclerView) this.findViewById(R.id.rv_contacts);
         LinearLayoutManager l = new LinearLayoutManager(this);
         this.rvListeEnseignants.setLayoutManager(l);
-        //ArrayList<Enseignant> contacts = makeListContact(ListeContact.liste);
+        
         try {
             T1.join();
-            Toast.makeText(this, "Wesh", Toast.LENGTH_LONG).show();
         }
-    catch (InterruptedException e) {
-        Toast.makeText(this, "coucou", Toast.LENGTH_LONG).show();
-    }
+        catch (InterruptedException e) {
+            Toast.makeText(this, "Erreur : ", Toast.LENGTH_LONG).show();
+        }
         Toast.makeText(this, "Thread Finit" + test, Toast.LENGTH_LONG).show();
-        EnseignantAdapter adapter = new EnseignantAdapter(this, contacts);
+        
+        EnseignantAdapter adapter = new EnseignantAdapter(this, ListeContact.contacts);
         this.rvListeEnseignants.setAdapter(adapter);
         rvListeEnseignants.setNestedScrollingEnabled(false);
     }
 
+    /**
+     * écouteur sur le bouton credits
+     */
     public void activerBouton()
     {
         Button credit = (Button) findViewById(R.id.button_credit);
@@ -55,6 +57,9 @@ public class MainActivity extends AppCompatActivity{
         );
     }
 
+    /**
+     * crée et remplis la liste
+     */
     private ArrayList<Enseignant> makeListContact(Enseignant[] liste) {
         ArrayList<Enseignant> contacts = new ArrayList<>();
 

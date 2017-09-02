@@ -1,7 +1,7 @@
-#Sun Aug 27 19:12:34 CEST 2017
-base.0=D\:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_17bf56c62a38943d276bcdb716b30d7f3a3b8202
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=D\:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b3e9bc33a12d048c69b470c852275649cae71a65\\classes.dex
-base.1=D\:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b3e9bc33a12d048c69b470c852275649cae71a65
-file.0=D\:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_17bf56c62a38943d276bcdb716b30d7f3a3b8202\\classes.dex
+#Sat Sep 02 13:01:05 CEST 2017
+base.0=D\:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d810f6c2fda4a803888a8b911d9d3e715d9a7079
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_726d21014766f86cad37fe0e6bf915f326a9bc1a\\classes.dex
+base.1=D\:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_726d21014766f86cad37fe0e6bf915f326a9bc1a
+file.0=D\:\\perso\\AndroidProject\\AnnuaireParis13-loic\\AnnuaireParis13\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d810f6c2fda4a803888a8b911d9d3e715d9a7079\\classes.dex

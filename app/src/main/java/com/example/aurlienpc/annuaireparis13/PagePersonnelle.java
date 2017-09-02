@@ -19,20 +19,28 @@ public class PagePersonnelle extends AppCompatActivity {
         recupRessources(nom);
     }
 
+    /**
+     * récupère les attributs de l'enseignant choisi
+     * @param nom
+     */
     public void recupRessources(String nom)
     {
         TextView tv_nom = (TextView) findViewById(R.id.enseignant_cible);
         TextView tv_mail = (TextView) findViewById(R.id.mail);
         tv_nom.setText(nom);
         int i = 0;
-        while(!(nom.equals(ListeContact.liste[i].getNom())))
+        while(!(nom.equals(ListeContact.contacts.get(i).getNom())))
         {
             i++;
         }
+        
         Enseignant cible = ListeContact.getEnseignant(i);
         tv_mail.setText(cible.getMail());
     }
 
+    /**
+     * ajoute le bouton retour dans le menu
+     * */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -44,6 +52,9 @@ public class PagePersonnelle extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * ajoute le menu
+     */
     public boolean onCreateOptionsMenu(Menu menu) {
         return true;
     }

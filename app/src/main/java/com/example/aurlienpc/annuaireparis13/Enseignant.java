@@ -16,16 +16,25 @@ public class Enseignant {
         this.mail = mail;
     }
 
+    /**
+     * retourne l'id de l'enseignant
+     */
     public long getId()
     {
         return this.id;
     }
 
+    /**
+     * retourne le nom de l'enseignant
+     */
     public String getNom()
     {
         return this.nom;
     }
 
+    /**
+     * retourne le mail de l'enseignant
+     */
     public String getMail()
     {
         return this.mail;

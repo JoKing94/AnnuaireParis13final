@@ -9,18 +9,18 @@
     <string name="title_activity_main2">Main2Activity</string>
 
     <string-array name="DataProf">
-        <item>1,Khafif,Khafif@test.fr</item>
-        <item>2,Hébert,Khafif@test.fr</item>
-        <item>3,Peker,Khafif@test.fr</item>
-        <item>4,Kristikis,Khafif@test.fr</item>
-        <item>5,Butelle,Khafif@test.fr</item>
-        <item>6,Dubacq,Khafif@test.fr</item>
-        <item>7,Deselligny,Khafif@test.fr</item>
-        <item>8,Torti,Khafif@test.fr</item>
-        <item>9,Gayral,Khafif@test.fr</item>
-        <item>10,Henrio,Khafif@test.fr</item>
-        <item>11,Roy,Khafif@test.fr</item>
-        <item>12,Chuck Norris,Khafif@test.fr</item>
+        <item>1,ensignant1,mail@test.fr</item>
+        <item>2,ensignant2,mail@test.fr</item>
+        <item>3,ensignant3,mail@test.fr</item>
+        <item>4,ensignant4,mail@test.fr</item>
+        <item>5,ensignant5,mail@test.fr</item>
+        <item>6,ensignant6,mail@test.fr</item>
+        <item>7,ensignant7,mail@test.fr</item>
+        <item>8,ensignant8,mail@test.fr</item>
+        <item>9,ensignant9,mail@test.fr</item>
+        <item>10,ensignant10,mail@test.fr</item>
+        <item>11,ensignant11,mail@test.fr</item>
+        <item>12,ensignant12,mail@test.fr</item>
     </string-array>
 
 </resources>
